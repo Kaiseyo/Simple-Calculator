@@ -1,0 +1,54 @@
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 5px solid #D8B6A4;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 60px;
+    padding: 16px 16px;
+    font-size: 50px;
+    border: solid 10px #D8B6A4;
+    background:#EEEBDD;
+    color: #362121;
+    overflow:hidden;
+    text-overflow:clip;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+.buttonSection  {
+    display: grid;
+    border-bottom: 1px solid #D8B6A4;
+    border-left: 1px solid #D8B6A4;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background:#EEEBDD;
+}
+
+.buttonSection > div {
+    border-top: 1px solid #D8B6A4;
+    border-right: 1px solid#D8B6A4;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background:#EEEBDD;
+    color: #630000;    
+    font-size: 40px;
+    font-family: 'IM Fell Great Primer', serif;
+}
+#equalsButton {
+    background-color: #630000;
+    color: #EEEBDD;
+}
+.button:hover {
+    background-color: #630000;
+    color: #EEEBDD;
+    transition: 0.5s ease-in-out;
+}
